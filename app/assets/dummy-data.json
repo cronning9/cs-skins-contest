@@ -1,0 +1,36 @@
+{
+  "ourScore": 12,
+  "theirScore": 11,
+  "teammates": [
+    {
+      "name": "ooronning",
+      "kills": 14,
+      "deaths": 3,
+      "eligible": false
+    },
+    {
+      "name": "Swamp",
+      "kills": 7,
+      "deaths": 10,
+      "eligible": true
+    },
+    {
+      "name": "Plains",
+      "kills": 12,
+      "deaths": 2,
+      "eligible": true
+    },
+    {
+      "name": "likemagic",
+      "kills": 8,
+      "deaths": 6,
+      "eligible": false
+    },
+    {
+      "name": "frozenwalkway",
+      "kills": 13,
+      "deaths": 17,
+      "eligible": true
+    }
+  ]
+}

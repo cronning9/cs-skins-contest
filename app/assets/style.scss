@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.25em;
+}
+
+html {
+  background: #333;
+}
+
+body {
+  background: white;
+  box-shadow: black -1px 1px 8px, white 0 0 16px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  max-width: 720px;
+  padding: 16px;
+  margin: 32px auto;
+  margin-bottom: 128px;
+}
+
+h1 {
+  font-family: 'Baloo Bhai', sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  text-shadow: white -1px 1px 2px, black 0 0 5px;
+  letter-spacing: 4px;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  color: rgb(64, 8, 8);
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
+
+input {
+  font-size: inherit;
+  padding: .5em;
+  width: 6em;
+}
+
+h2 {
+  font-family: Cairo, sans-serif;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+h3 {
+  font-family: Cairo, sans-serif;
+  padding-left: 1.0em;
+  padding-top: 0.5em;
+}
+
+h4 {
+  font-family: Cairo, sans-serif;
+  padding-left: 1.0em;
+  padding-top: 0.5em;
+}
+
+.players-table {
+  margin: 1em auto;
+  width: 90%;
+
+  td, th {
+    margin: .2em;
+    padding: .4em;
+    text-align: center;
+
+    input {
+      text-align: center;
+      border: 0;
+    }
+  }
+
+  td {
+    background: #F0F0F0;
+
+    .name {
+      float: left;
+      color: black;
+      font-weight: bold;
+
+      .player-avatar {
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+  }
+
+  .eligible {
+    width: 25px;
+  }
+
+  .score {
+    width: 50px;
+  }
+
+  .odds {
+    width: 150px;
+  }
+}
+
+#winner {
+  padding: 12px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: .5em;
+
+  p {
+    text-align: center;
+    line-height: .6em;
+  }
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+footer {
+  border-top: 1px solid #888;
+  margin-top: 4em;
+  font-size: .75em;
+  padding-top: 0.5em;
+}
+
+/* User View */
+
+#user-head {
+
+  border-bottom: 2px solid rgb(64, 8, 8);
+
+  overflow: auto;
+
+  h2 {
+    display: inline-block;
+  }
+  img {
+    margin: 0.5em 0 0.5em 0;
+    float: left;
+  }
+}
+
+#user-info {
+  margin-left: 0.5em;
+
+  h3 {
+    padding-left: 0;
+  }
+  ul {
+    margin-top: 0.4em;
+    list-style: none;
+    padding-left: 0.5em;
+  }
+}
+
+.game {
+  padding: .5em 0em .5em 0em ;
+
+  h4 {
+    padding-top: 0;
+    padding-left: .2em;
+    display: inline-block;
+    left: 1em;
+  }
+
+  img {
+    float: left;
+    padding-right: .5em;
+  }
+
+  ul {
+    padding-left: .3em;
+  }
+}
