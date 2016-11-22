@@ -22,7 +22,7 @@ Clicking on a username in the table below will demonstrate the following functio
 calculator: `
 ## Winner Calculator
 
-This winner is randomly determined, based on the results of the game. Enter the results below and it will tell you who has won. (This deterministic pseudorandom system is similar to on-blockchain BitCoin gambling systems, if you want a point of reference.) I've pre-filled some made-up data as an example.
+This is just dummy data. In the real application, there will be real data from a real data model represented here.
 `,
 
 after: `
