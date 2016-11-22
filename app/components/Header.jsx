@@ -6,7 +6,7 @@ import React from 'react';
 const Header = () =>
   <header>
     <h1>
-      <a href='/'>winForSkins.com -- Portfolio Sample</a>
+      <a href='/'>Counter Strike Skins Contest</a>
     </h1>
   </header>;
 
